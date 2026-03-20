@@ -1,6 +1,9 @@
 # Concept-to-Pixel: Prompt-Free Universal Medical Image Segmentation
 
-[![arXiv](https://img.shields.io/badge/arxiv-2603.17746-b31b1b.svg)](https://arxiv.org/abs/2603.17746)
+<p align="center">
+  <img src="figures/teaser_C2P.png" alt="C2P Teaser" width="90%">
+</p>
+
 
 <div align="center">
     <span class="author-block">
@@ -31,6 +34,8 @@
 <br>
 <br>
 
+[![arXiv](https://img.shields.io/badge/arxiv-2603.17746-b31b1b.svg)](https://arxiv.org/abs/2603.17746) [![github](https://img.shields.io/badge/github-Concept--to--Pixel-white)](https://github.com/Yundi218/Concept-to-Pixel)    <a href="#LICENSE--citation"><img alt="License: Apache2.0" src="https://img.shields.io/badge/LICENSE-Apache%202.0-blue.svg"/></a>
+
 
 ## 📖 Introduction
 
@@ -43,10 +48,6 @@ To address these limitations, we propose **Concept-to-Pixel (C2P)**, a novel pro
 * **Geometric Tokens (`[GEO]`):** Explicitly supervised to regress physical attributes (e.g., area, centroid, bounding box) to enforce universal physical and structural constraints.
 
 These disentangled tokens interact deeply with image features through a **Token-Guided Dynamic Head (TGDH)** to generate input-specific dynamic kernels for precise mask prediction. Additionally, we introduce a **Geometry-Aware Inference Consensus** mechanism, which utilizes the explicitly regressed geometric priors to assess prediction reliability and suppress outliers during inference.
-
-<p align="center">
-  <img src="figures/teaser_C2P.png" alt="C2P Teaser" width="90%">
-</p>
 
 ## ✨ Key Features
 
